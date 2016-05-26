@@ -33,7 +33,6 @@ Problème
 - Arbre d'exécution (souvent infini)
 - Coût par action
 - Minimise le coût pour une solution optimale
-- 
 
 ![Formalise mathématique](https://github.com/AlexisTM/IA-summary/blob/master/FormalismeMath.PNG)
 
