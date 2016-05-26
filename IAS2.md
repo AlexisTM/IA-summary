@@ -34,11 +34,11 @@ Problème
 - Coût par action
 - Minimise le coût pour une solution optimale
 - 
-[[https://github.com/AlexisTM/IA-summary/blob/master/Formalisation mathématique.PNG|alt=Formalise mathématique]]
+[[https://github.com/AlexisTM/IA-summary/blob/master/FormalismeMath.PNG|alt=Formalise mathématique]]
 
-[[https://github.com/AlexisTM/IA-summary/blob/master/Formalisation mathématique, exemple.PNG|alt=Formalise mathématique exemple]]
+[[https://github.com/AlexisTM/IA-summary/blob/master/FormalismeMathExemple.PNG|alt=Formalise mathématique exemple]]
 
-[[https://github.com/AlexisTM/IA-summary/blob/master/Formalisation mathématique, fonction successeur.PNG|alt=Fonction successeur]]
+[[https://github.com/AlexisTM/IA-summary/blob/master/FonctionSuccesseur.PNG, fonction successeur.PNG|alt=Fonction successeur]]
 
 Algorithme
 ------------
