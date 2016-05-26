@@ -72,3 +72,11 @@ Syntaxe
 | ¬(α ∨ β) ≡ (¬α ∧ ¬β) | De Morgan |
 | (α ∧ (β ∨ γ)) ≡ ((α ∧ β) ∨ (α ∧ β)) | distribution de ∧ sur ∨ |
 | (α ∨ (β ∧ γ)) ≡ ((α ∨ β) ∧ (α ∨ β)) | distribution de ∨ sur ∧ |
+
+Règles d'inférences 
+----------------
+- Numérateur : Règle, Input
+- Dénominateur : Résultat
+- Modus Ponens : (A => B, A)/(B)
+- And-elimination : (A ∧ B)/(A) &  (A ∧ B)/(B) 
+- And-elimination : Si l'on a (A ∧ B), on peut le remplacer au choix, par A ou B
