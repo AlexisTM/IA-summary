@@ -58,8 +58,8 @@ Syntaxe
 Équivalences logiques usuelles
 -------------------
 
-| Équivalence   |     Nom           |
-| ------------- |: -------------: |
+| Équivalence   |     Nom      |
+|-------------|: -------------:|
 | (α ∧ β) ≡ (β ∧ α) | commutativité de ∧ |
 | (α ∨ β) ≡ (β ∨ α) | commutativité de ∨ |
 | ((α ∧ β) ∧ γ) ≡ (α ∧ (β ∧ γ)) | associativité de ∧ |
