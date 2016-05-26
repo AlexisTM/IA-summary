@@ -107,3 +107,36 @@ Recherche informée
   - Complet et optimal si h(n) n'est pas surestimé
 - **Adversarial Search**
   - Recherche de solution avec deux adversaires
+  - Joueurs MIN et MAX, MAX joue en premier
+  - *Définition du problème :*
+    - État initial : Position sur le plateau
+    - Fonction successeur : List des paires (move, state)
+    - Test terminal : Vérifie si le jeu est terminé
+    - Fonction d'utilité : Donne une valeur aux états terminaux
+  - *Arbre de jeu*
+    - État initial
+    - Mouvements légaux
+  - *Stratégie* : 
+    - Max veut gagner sachant que MIN joue aussi
+    - Définit: 
+      - Le premier coup
+      - La réponse optimale de MIN
+      - La réponse de MAX 
+      - ...
+    - On joue le meilleur coût en espérant que l'adversaire joue parfaitement
+  - *Caractéristiques des jeux*
+    - Somme nulle : L'un gagne, l'autre perd
+    - Information parfaite (accessibilité à toutes les informations des deux joueurs)
+    - Pas de chance dans le jeu
+    - Valeur d'un état terminal
+  - **Algorithme Minimax**
+    - Delta vers le HAUT = MAX, delta vers le BAS = MIN
+    - MAX choisit le max du choix minimal de MIN
+  - **Alpha-Beta Pruning**
+    - Comme minimax
+    - N'explorer pas si inutile
+    - Simplifications, pruning : 
+      - α cutoff : α borne inférieure pour MAX, la plus grande valeur trouvée
+
+      - β cutoff : β borne supérieure pour MIN, la plus petite valeur trouvée
+    - Mémorisation des bornes durant l'exploration de l'arbre
