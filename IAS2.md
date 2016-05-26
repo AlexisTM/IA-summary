@@ -33,6 +33,12 @@ Problème
 - Arbre d'exécution (souvent infini)
 - Coût par action
 - Minimise le coût pour une solution optimale
+- 
+[[https://github.com/AlexisTM/IA-summary/blob/master/Formalisation mathématique.PNG|alt=Formalise mathématique]]
+
+[[https://github.com/AlexisTM/IA-summary/blob/master/Formalisation mathématique, exemple.PNG|alt=Formalise mathématique exemple]]
+
+[[https://github.com/AlexisTM/IA-summary/blob/master/Formalisation mathématique, fonction successeur.PNG|alt=Fonction successeur]]
 
 Algorithme
 ------------
